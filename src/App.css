@@ -1,0 +1,173 @@
+.App {
+  justify-content: center;
+  align-items: center;
+}
+
+.UnitImg {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 8px;
+  margin-top: 10px;
+
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+.UnitCard {
+  width: 220px;
+  height: 260px;
+  border-radius: 8px;
+
+  margin: auto;
+  margin-top: 10px;
+
+  background-color: cadetblue;
+  justify-content: center;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.ChooserLayout {
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.HealthIcon {
+  width: 35px;
+  height: 35px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+
+  margin: auto;
+  padding: auto;
+
+  border-radius: 50%;
+  background-color:aliceblue;
+}
+
+.UnitName {
+  font-size: 1.5vw;
+}
+
+.PlayerScore {
+  font-size: 1.5vw;
+  margin-top: 5px;
+}
+
+.GameWindow {
+  width: 80vw;
+  height: calc(280 * 3 + 300);
+
+  border-radius: 12px;
+
+  padding: auto;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: aliceblue;
+}
+
+.GameWindowLayout {
+  width: 80vw;
+  height: calc(280 * 3 + 300);
+
+  border-radius: 12px;
+
+  padding: auto;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: aliceblue;
+}
+
+.TurnText{
+  color: black;
+  font-size: xx-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  padding: auto;
+  margin: auto;
+}
+
+
+.PlayerWindow {
+  width: 280px;
+  height: calc(280 * 3);
+
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: auto;
+  margin: auto;
+  margin-top: 10vh;
+
+  background-color: cadetblue;
+}
+
+.BattleField {
+  width: 460px;
+  height: 280px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 10vh;
+
+  border-radius: 12px;
+
+  background-color: cadetblue;
+}
+
+.PlayerLayout {
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.UnitSlot {
+  width: 200px;
+  height: 200px;
+
+  padding: auto;
+  margin: auto;
+
+  border-radius: 8px;
+  background-color: darkslategray;
+}
+
+.UnitStats {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
